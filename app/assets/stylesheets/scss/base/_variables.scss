@@ -1,0 +1,19 @@
+// Breakpoint variables
+//NOTE: Changes made here should be also reflected in constants.ts
+//LINK: src/common/utils/constants.ts
+$breakpoints: (
+  "xs-phone": 320px,
+  "phone-sm": 375px,
+  "phone": 480px,
+  "phone-lg": 576px,
+  "phone-xl": 630px,
+  "tablet": 768px,
+  "tablet-lg": 925px,
+  "tablet-xl": 960px,
+  "desktop": 1024px,
+  "desktop-lg": 1080px,
+  "widescreen": 1200px,
+  "widescreen-lg": 1440px,
+  "widescreen-xl": 1600px,
+  "widescreen-xxl": 1840px,
+);
