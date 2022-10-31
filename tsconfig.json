@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@/*": [
+        "app/javascript/ijiel-frontend/src/*"
+      ],
+    },
     "target": "es6",
     "allowJs": true,
     "skipLibCheck": true,
