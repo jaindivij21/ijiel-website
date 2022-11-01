@@ -17,3 +17,39 @@ $breakpoints: (
   "widescreen-xl": 1600px,
   "widescreen-xxl": 1840px,
 );
+
+// Define the max width of the inner elements
+$max-app-width: 1080px;
+@include media("<=widescreen") {
+  $max-app-width: 800px;
+}
+
+// Fonts
+$font-family-heading: "Crimson Text", serif;
+$font-family-content: "Playfair Display", serif;
+
+// Sizes
+$font-size-base: 1.3rem;
+
+$font-size-vs: 1rem;
+$font-size-xxxs: 1.1rem;
+$font-size-xxs: 1.2rem;
+$font-size-xs: 1.3rem;
+$font-size-sm: 1.4rem;
+$font-size-md: 1.5rem;
+$font-size-lg: 1.6rem;
+$font-size-xl: 1.7rem;
+$font-size-xxl: 1.8rem;
+$font-size-vl: 2rem;
+
+// Colors
+$base-text-color-black: black;
+$base-text-color-white: white;
+$text-color-primary: #014546;
+
+// Background colors
+// $base-background-color: #fafafa;
+$base-background-color: red;
+$background-color-primary: #014546;
+$background-color-secondary: #f0f0ee;
+$background-color-dark: #ebe5e2;
