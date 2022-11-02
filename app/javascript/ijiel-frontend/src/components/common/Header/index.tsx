@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Assets
+import ijielLogo from "@images/ijiel-logo.png";
+
 // Website Header 
 const Header = () => {
   return (
-    <footer className="header">
+    <header className="header">
       <div className="header-container">
 
         {/* SECTION: Header Options */}
@@ -30,11 +33,14 @@ const Header = () => {
 
         {/* SECTION: Main Header Content */}
         <div className="header-content">
-
+          <img src={ijielLogo} className="ijiel-logo" alt="ijiel-logo" />
+          <div className="title">
+            Indian Journal Of International Economic Law
+          </div>
         </div>
 
       </div>
-    </footer>
+    </header>
   );
 }
 

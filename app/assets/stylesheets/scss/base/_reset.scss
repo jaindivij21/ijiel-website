@@ -19,6 +19,8 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: $font-family-content;
   -webkit-font-smoothing: antialiased;
   color: $base-text-color-black;
@@ -44,5 +46,6 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  all: unset;
+  cursor: pointer;
 }

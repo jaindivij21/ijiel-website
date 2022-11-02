@@ -41,6 +41,7 @@ $font-size-lg: 1.6rem;
 $font-size-xl: 1.7rem;
 $font-size-xxl: 1.8rem;
 $font-size-vl: 2rem;
+$font-size-vvl: 5rem;
 
 // Colors
 $base-text-color-black: black;
@@ -48,8 +49,10 @@ $base-text-color-white: white;
 $text-color-primary: #014546;
 
 // Background colors
-// $base-background-color: #fafafa;
-$base-background-color: red;
+$base-background-color: #fafafa;
 $background-color-primary: #014546;
 $background-color-secondary: #f0f0ee;
 $background-color-dark: #ebe5e2;
+
+// Header
+$header-height: 250px;
