@@ -6,7 +6,7 @@
         "app/javascript/ijiel-frontend/src/*"
       ],
       "@images/*": [
-        "app/assets/images/*"
+        "app/javascript/images/*"
       ]
     },
     "target": "es6",
@@ -21,7 +21,7 @@
     "jsx": "react"
   },
   "include": [
-    "next-env.d.ts",
+    "app/javascript/ijiel-frontend/src/declaration.d.ts",
     "**/*.ts",
     "**/*.tsx",
   ],
